@@ -1,23 +1,23 @@
 name: James Frazier
-dp: /screenshots/tree_of_life_roots.png
+dp: /assets/images/tree_of_life_roots.png
 description: "
   <p>
-    Another test for me
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget gravida tortor, id molestie tellus.
   </p>
   <br/>
   <p>
-    You can find my repositories <a href='https://github.com/jgfrazie' target='_blank'>here</a>.
+    Here is a link to my <a href='https://github.com/jgfrazie' target='_blank'>GitHub</a>.
   </P>
 "
 email: james.frazier8093@gmail.com
 contact:
-  - title: linkedin
-    url: https://www.linkedin.com/in/srsmaurya
+  # - title: linkedin
+  #   url: https://www.linkedin.com/in/srsmaurya
   - title: github
     url: https://github.com/jgfrazie
-  - title: twitter
-    url: https://twitter.com/iamsharadraj
-  - title: dev
-    url: https://dev.to/sharadcodes
+  # - title: twitter
+  #   url: https://twitter.com/iamsharadraj
+  # - title: dev
+  #   url: https://dev.to/sharadcodes
   - title: email
     url: mailto:james.frazier8093@gmail.com
