@@ -2,17 +2,17 @@ name: James Frazier
 dp: /assets/images/tree_of_life_roots.png
 description: "
   <p>
-    There is not much here yet, but soon there will be much more!
+    A Hamilton College Senior Fellow of the Class of 2024. You can find more about me and my interests <a href='/about.html'>here</a>.
   </p>
   <br/>
   <p>
-    Here is a link to my <a href='https://github.com/jgfrazie' target='_blank'>GitHub</a>.
+    This is a link to my <a href='https://github.com/jgfrazie' target='_blank'>GitHub</a> where most of my projects can be found.
   </P>
 "
 email: james.frazier8093@gmail.com
 contact:
-  # - title: linkedin
-  #   url: https://www.linkedin.com/in/srsmaurya
+  - title: linkedin
+    url: https://www.linkedin.com/in/james-frazier-3337b8251/
   - title: github
     url: https://github.com/jgfrazie
   - title: instagram
