@@ -1,0 +1,67 @@
+
+:root {
+    --darkSky: #221a54;
+    --snow: whitesmoke;
+    --black: #000000;
+    --transition-delay: 1s;
+}
+
+header {
+    position: absolute;
+    display: flex;
+}
+
+body {
+    background-color: var(--darkSky);
+    color: var(--snow);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+abbr {
+    font-style: italic;
+}
+
+a {
+    color: yellow;
+}
+
+a:visited {
+    color: orangered;
+}
+
+.icons {
+    color: var(--snow);
+    position: absolute;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    bottom: 0;
+    left: 0%;
+    font-size: 48px;
+    text-align: left;
+}
+
+#headshot {
+    left: 0%;
+    top: 0%;
+    width: 33%;
+    height: auto;
+
+    border-color: var(--snow);
+    border-style: groove;
+    border-width: 5px;
+}
+
+#headerText {
+    position: relative;
+    border: 5px groove var(--snow);
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 60%;
+    text-align: center;
+}
+
+#headerText li {
+    padding-left: 10%;
+    text-indent: -10%;
+    text-align: left;
+}
