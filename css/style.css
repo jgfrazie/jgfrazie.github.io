@@ -14,6 +14,21 @@ header {
     flex-direction: column;
 }
 
+h1 {
+    text-align: center;
+    border-color: var(--bd-color);
+    border-style: groove;
+    border-width: 5px;
+
+    margin-left: 3%;
+    margin-right: 1%;
+    margin-top: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 body {
     background-color: var(--bg);
     color: var(--font-color);
@@ -117,6 +132,8 @@ div.icons {
     margin-right: 1%;
     padding-left: 2%;
     padding-right: 2%;
+    display: flex;
+    justify-content: center;
     width: auto;
     height: inherit;
     text-align: center;
