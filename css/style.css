@@ -36,10 +36,12 @@ div.icon {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: auto;
+    width: 10%;
+    max-width: 10%;
 }
 
 .iconDescriptor {
+    max-width: inherit;
     margin-top: -5%;
     font-size: 14px;
     display: block;
@@ -48,6 +50,7 @@ div.icon {
 div.icons {
     color: var(--snow);
     position: relative;
+    padding-top: 1%;
     bottom: 0;
     left: 0;
     font-size: 48px;
@@ -63,6 +66,9 @@ div.icons {
     border-color: var(--snow);
     border-style: groove;
     border-width: 5px;
+    
+    transform-origin: center;
+    transition-duration: var(--transition-delay);
 }
 
 #headerText {
@@ -85,4 +91,11 @@ div.icons {
     padding-left: 10%;
     text-indent: -10%;
     text-align: left;
+}
+
+#mochiLogo {
+    color: ;
+    width: auto;
+    max-width: 33%;
+    height: auto;
 }
