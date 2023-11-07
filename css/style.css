@@ -3,7 +3,9 @@
     --darkSky: #221a54;
     --snow: whitesmoke;
     --black: #000000;
+    --visited-link-light: rgb(151, 5, 134);
     --transition-delay: 1s;
+    --icon-width: 48px;
 }
 
 header {
@@ -13,22 +15,36 @@ header {
 }
 
 body {
+    background-color: var(--bg);
+    color: var(--font-color);
     position: absolute;
-    background-color: var(--darkSky);
-    color: var(--snow);
     font-family: Arial, Helvetica, sans-serif;
-}
-
-abbr {
-    font-style: italic;
+    transition-duration: var(--transition-delay);
 }
 
 a {
-    color: yellow;
+    color: var(--unvisited-link);
 }
 
 a:visited {
-    color: orangered;
+    color: var(--visited-link);
+}
+
+.websiteOption {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.button {
+    width: fit-content;
+    padding: 2px;
+    border-radius: 10%;
+    background-color: var(--font-color);
+    color: var(--bg);
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 div.icon {
@@ -38,6 +54,28 @@ div.icon {
     text-align: center;
     width: 10%;
     max-width: 10%;
+}
+
+.darkTheme {
+    --bg: var(--darkSky);
+    --font-color: var(--snow);
+    --unvisited-link: yellow;
+    --visited-link: orangered;
+    --bd-color: var(--snow);
+}
+
+.lightTheme {
+    --bg: var(--snow);
+    --font-color: var(--darkSky);
+    --unvisited-link: blue;
+    --visited-link: var(--visited-link-light);
+    --bd-color: var(--darkSky);
+}
+
+.imgIcon {
+    width: auto;
+    max-width: var(--icon-width);
+    height: auto;
 }
 
 .iconDescriptor {
@@ -53,7 +91,7 @@ div.icons {
     padding-top: 1%;
     bottom: 0;
     left: 0;
-    font-size: 48px;
+    font-size: var(--icon-width);
     text-align: center;
 }
 
@@ -61,21 +99,22 @@ div.icons {
     left: 0%;
     top: 0%;
     width: 33%;
+    margin-left: 1%;
     height: auto;
 
-    border-color: var(--snow);
+    border-color: var(--bd-color);
     border-style: groove;
     border-width: 5px;
     
     transform-origin: center;
-    transition-duration: var(--transition-delay);
 }
 
 #headerText {
     position: relative;
     flex-direction: column;
-    border: 5px groove var(--snow);
+    border: 5px groove var(--bd-color);
     margin-left: 3%;
+    margin-right: 1%;
     padding-left: 2%;
     padding-right: 2%;
     width: auto;
@@ -85,6 +124,7 @@ div.icons {
 
 #headerText ul {
     position: inherit;
+    left: -3%;
 }
 
 #headerText li {
@@ -93,9 +133,19 @@ div.icons {
     text-align: left;
 }
 
-#mochiLogo {
-    color: ;
-    width: auto;
-    max-width: 33%;
-    height: auto;
+#themeButton {
+    width: fit-content;
+    padding: 2px;
+    border-radius: 10%;
+    background-color: var(--font-color);
+    color: var(--bg);
+}
+
+#themeButton:hover {
+    cursor: pointer;
+}
+
+#websiteOptions {
+    flex-direction: row;
+    display: flex;
 }
