@@ -135,7 +135,7 @@ div.icons {
     display: flex;
     justify-content: center;
     width: auto;
-    height: inherit;
+    height: 78%;
     text-align: center;
 }
 
