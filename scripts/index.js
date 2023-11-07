@@ -30,6 +30,7 @@ function themeSwitcher() {
 Upon loading the page, will set the click event listener for the theme button.
 */
 $(document).ready(function() {
+    console.log(navigator.userAgent);
     document.querySelector('#themeButton').addEventListener('click', themeSwitcher);
     // document.querySelector('#zoomButton').addEventListener('click', graphicalZoomEnabler);
 });
