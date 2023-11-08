@@ -1,9 +1,11 @@
 
 :root {
-    --darkSky: #221a54;
+    --darkSky: #141823; /* Rich Black */
     --snow: whitesmoke;
-    --black: #000000;
-    --visited-link-light: rgb(151, 5, 134);
+    --unvisited-link-light: #007EA7;
+    --unvisited-link-dark: #44FFD2; /* Jasmine */
+    --visited-link-light: #84776C; /* Cinereous */
+    --visited-link-dark: #FCD581; /* Columbia Blue */
     --transition-delay: 1s;
     --icon-width: 48px;
 }
@@ -31,9 +33,19 @@ body {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     transition-duration: var(--transition-delay);
+    text-align: center;
 
     margin-left: 2%;
     margin-right: 2%;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    padding-left: 10%;
+    text-indent: -10%;
 }
 
 a {
@@ -75,15 +87,15 @@ div.icon {
 .darkTheme {
     --bg: var(--darkSky);
     --font-color: var(--snow);
-    --unvisited-link: yellow;
-    --visited-link: orangered;
+    --unvisited-link: var(--unvisited-link-dark);
+    --visited-link: var(--visited-link-dark);
     --bd-color: var(--snow);
 }
 
 .lightTheme {
     --bg: var(--snow);
     --font-color: var(--darkSky);
-    --unvisited-link: blue;
+    --unvisited-link: var(--unvisited-link-light);
     --visited-link: var(--visited-link-light);
     --bd-color: var(--darkSky);
 }
