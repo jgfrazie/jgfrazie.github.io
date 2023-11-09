@@ -1,10 +1,10 @@
 
 :root {
     --darkSky: #141823; /* Rich Black */
-    --snow: whitesmoke;
-    --unvisited-link-light: #007EA7;
+    --snow: #f5f5f5; /* Whitesmoke */
+    --unvisited-link-light: #005C43; /* YInMn Blue */
     --unvisited-link-dark: #44FFD2; /* Jasmine */
-    --visited-link-light: #84776C; /* Cinereous */
+    --visited-link-light: #5F4201; /* Sinopia */
     --visited-link-dark: #FCD581; /* Columbia Blue */
     --transition-delay: 1s;
     --icon-width: 48px;
@@ -32,7 +32,6 @@ body {
     color: var(--font-color);
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    transition-duration: var(--transition-delay);
     text-align: center;
 
     margin-left: 2%;
@@ -50,10 +49,12 @@ li {
 
 a {
     color: var(--unvisited-link);
+    transition-duration: var(--transition-delay);
 }
 
 a:visited {
     color: var(--visited-link);
+    transition-duration: var(--transition-delay);
 }
 
 .websiteOption {
@@ -67,6 +68,7 @@ a:visited {
     border-radius: 10%;
     background-color: var(--font-color);
     color: var(--bg);
+    transition-duration: var(--transition-delay);
 }
 
 .button:hover {
@@ -90,6 +92,7 @@ div.icon {
     --unvisited-link: var(--unvisited-link-dark);
     --visited-link: var(--visited-link-dark);
     --bd-color: var(--snow);
+    transition-duration: var(--transition-delay);
 }
 
 .lightTheme {
@@ -98,12 +101,14 @@ div.icon {
     --unvisited-link: var(--unvisited-link-light);
     --visited-link: var(--visited-link-light);
     --bd-color: var(--darkSky);
+    transition-duration: var(--transition-delay);
 }
 
 .imgIcon {
     width: auto;
     max-width: var(--icon-width);
     height: auto;
+    transition-duration: var(--transition-delay);
 }
 
 .iconDescriptor {
@@ -122,6 +127,7 @@ div.icons {
     left: 0;
     font-size: var(--icon-width);
     text-align: center;
+    transition-duration: var(--transition-delay);
 }
 
 #headshot {
@@ -137,6 +143,7 @@ div.icons {
     border-color: var(--bd-color);
     border-style: groove;
     border-width: 5px;
+    transition-duration: var(--transition-delay);
 }
 
 #headerText {
@@ -171,6 +178,7 @@ div.icons {
     border-radius: 10%;
     background-color: var(--font-color);
     color: var(--bg);
+    transition-duration: var(--transition-delay);
 }
 
 #themeButton:hover {
