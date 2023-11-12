@@ -1,0 +1,224 @@
+
+:root {
+    --darkSky: #141823; /* Rich Black */
+    --snow: #f5f5f5; /* Whitesmoke */
+    --unvisited-link-light: #005C43; /* YInMn Blue */
+    --unvisited-link-dark: #44FFD2; /* Jasmine */
+    --visited-link-light: #5F4201; /* Sinopia */
+    --visited-link-dark: #FCD581; /* Columbia Blue */
+    --transition-delay: 1s;
+    --icon-width: 48px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url("/images/hcdgp.png"); /* Should be replaced inline for each individual blog */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20%;
+    margin-left: -5%;
+    margin-right: -2%;
+    margin-top: -10%;
+    margin-bottom: 0;
+}
+
+h1 {
+    background-color: black;
+    width: fit-content;
+    text-align: center;
+    padding: 1%;
+}
+
+
+body {
+    background-color: var(--bg);
+    color: var(--font-color);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.section hr {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    padding-left: 10%;
+    text-indent: -10%;
+}
+
+a {
+    color: var(--unvisited-link);
+    transition-duration: var(--transition-delay);
+}
+
+a:visited {
+    color: var(--visited-link);
+    transition-duration: var(--transition-delay);
+}
+
+.websiteOption {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.publication {
+    text-align: left;
+    padding-right: 2%;
+    padding-left: 12%;
+    text-indent: -10%;
+
+    border: 5px solid var(--bd-color);
+    border-top: none;
+    border-bottom: none;
+}
+
+.updateNotice {
+    font-style: italic;
+}
+
+.button {
+    width: fit-content;
+    padding: 2px;
+    border-radius: 10%;
+    background-color: var(--font-color);
+    color: var(--bg);
+    transition-duration: var(--transition-delay);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+div.icon {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    max-width: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.darkTheme {
+    --bg: var(--darkSky);
+    --font-color: var(--snow);
+    --unvisited-link: var(--unvisited-link-dark);
+    --visited-link: var(--visited-link-dark);
+    --bd-color: var(--snow);
+    transition-duration: var(--transition-delay);
+}
+
+.lightTheme {
+    --bg: var(--snow);
+    --font-color: var(--darkSky);
+    --unvisited-link: var(--unvisited-link-light);
+    --visited-link: var(--visited-link-light);
+    --bd-color: var(--darkSky);
+    transition-duration: var(--transition-delay);
+}
+
+.imgIcon {
+    width: auto;
+    max-width: var(--icon-width);
+    height: auto;
+    transition-duration: var(--transition-delay);
+}
+
+.iconDescriptor {
+    text-align: center;
+    max-width: inherit;
+    margin-top: -5%;
+    font-size: 14px;
+    display: block;
+}
+
+div.icons {
+    color: var(--snow);
+    position: relative;
+    padding-top: 1%;
+    bottom: 0;
+    left: 0;
+    font-size: var(--icon-width);
+    text-align: center;
+    transition-duration: var(--transition-delay);
+}
+
+#headshot {
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    width: 33%;
+    height: auto;
+
+    border-color: var(--bd-color);
+    border-style: groove;
+    border-width: 5px;
+    transition-duration: var(--transition-delay);
+}
+
+#headerText {
+    position: relative;
+    flex-direction: column;
+    border: 5px groove var(--bd-color);
+
+    margin: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 78%;
+    text-align: center;
+}
+
+#headerText ul {
+    position: inherit;
+    left: -3%;
+}
+
+#headerText li {
+    padding-left: 10%;
+    text-indent: -10%;
+    text-align: left;
+}
+
+#themeButton {
+    width: fit-content;
+    padding: 2px;
+    border-radius: 10%;
+    background-color: var(--font-color);
+    color: var(--bg);
+    transition-duration: var(--transition-delay);
+}
+
+#themeButton:hover {
+    cursor: pointer;
+}
+
+#websiteOptions {
+    flex-direction: row;
+    display: flex;
+}
