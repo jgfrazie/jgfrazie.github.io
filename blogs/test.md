@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+
+        <link rel="stylesheet" href="/css/blog.css">
+        <link rel="icon" type="image/jpg" href="images/professionalPFP-1x1.JPG">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+        <script type="text/javascript" src="/scripts/jquery.min.js"></script>
+        <script type="text/javascript" src="/scripts/blog.js"></script>
+        <noscript>Enable JavaScript to access full webpage</noscript>
+
+        <title>James Gunder Frazier</title>
+    </head>
+
+    
